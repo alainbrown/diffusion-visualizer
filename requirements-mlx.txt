@@ -1,0 +1,4 @@
+# Apple-silicon only. MLX uses Metal, so this stack runs natively on the Mac.
+# Install into the host .venv and run: python app_mlx.py
+mlx-vlm>=0.6.3   # MLX backend; provides DiffusionGemma support
+gradio>=5.31.0
